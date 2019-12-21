@@ -1277,7 +1277,7 @@ class CreatePost extends React.Component {
                                 emojiEnabled={this.props.enableEmojiPicker}
                                 createMessage={createMessage}
                                 channelId={currentChannel.id}
-                                id='post_textbox'
+                                id='thu_post_textbox'
                                 ref='textbox'
                                 disabled={readOnlyChannel}
                                 characterLimit={this.props.maxPostSize}
